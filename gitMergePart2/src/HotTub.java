@@ -6,14 +6,6 @@ public class HotTub {
 	private int numJets;
 	private int size;
 	
-	public HotTub() {
-		super();
-		// TODO Auto-generated constructor stub
-		numJets = 5;
-		size = 50;
-		temp =100;
-	}
-	
 	public HotTub(int temp, int numJets, int size) {
 		super();
 		this.temp = temp;
