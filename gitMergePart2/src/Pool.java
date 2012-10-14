@@ -1,11 +1,15 @@
+import java.util.Date;
+
+import com.sun.org.apache.bcel.internal.generic.Type;
+
 public class Pool {
 	
-	public Enum Type {
-		LAP, LEISURE
+	public enum Type {
+		LAP, LEISURE;
 	}
 
 	private final Type poolType;
-	private final float sqaureFeet;
+	private final float squareFeet;
 
 	private Date lastCleaned;
 

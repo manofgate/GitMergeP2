@@ -26,6 +26,7 @@ public class HotTub {
 		System.out.println("what's the number of Jets of spa?");
 		String numJ = scan.next();
 		HotTub ht = new HotTub(Integer.parseInt(temp), Integer.parseInt(tSize), Integer.parseInt(numJ));
+		
 	}
 
 }
