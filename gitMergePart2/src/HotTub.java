@@ -20,17 +20,6 @@ public class HotTub {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scan = new Scanner(System.in);
-		System.out.println("what's the temp of pool?");
-		String temp = scan.next();
-		System.out.println("what's the size of pool?");
-		String tSize = scan.next();
-		System.out.println("what's the number of Jets of spa?");
-		String numJ = scan.next();
-		HotTub ht = new HotTub(Integer.parseInt(temp), Integer.parseInt(tSize), Integer.parseInt(numJ));
-		ht.print();
-	}
+
 
 }
